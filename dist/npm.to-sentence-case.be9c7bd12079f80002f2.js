@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[70],{294:function(n,e,o){var p=o(184);n.exports=function(n){return p(n).replace(/[a-z]/i,(function(n){return n.toUpperCase()})).trim()}}}]);
