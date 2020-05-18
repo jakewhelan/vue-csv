@@ -28,6 +28,9 @@ To improve caching and reduce initial payload size, `vue-csv` employs very granu
 
 # Getting started
 
+## Disclaimer
+Although some language in the application and accompanying documentation (this file) implies a server exists, this proof of concept application is 100% client-side and only attempts to loosely mock APIs that would otherwise be server-side.
+
 ## Requirements
 
 `vue-csv` requires Node.js LTS (12.16.x) and npm 6.x
@@ -50,7 +53,21 @@ Run app
 ```
 npm start
 ```
+The app will open in your default browser at `http://localhost:8080`. If this doesn't happen, please manually open `http://localhost:8080/` in your favourite browser.
+
 `vue-csv` comes with distribution files included to provide further ease in running the app for the first time, no build is required.
+
+## Logging in
+The follow credentials are valid:
+| Username      | Password      |
+| ------------- | ------------- |
+| jake          | 1234          |
+| richard       | 5678          |
+| thomas        | abcd          |
+
+These are the only valid credentials, all others will return an error.
+
+## Advanced
 
 ### Running the app for development
 
@@ -66,6 +83,3 @@ Build app with production optimisations, and PWA features enabled
 ```
 npm run build
 ```
-
-## Disclaimer
-Although some language in the application and accompanying documentation (this file) implies a server exists, this proof of concept application is 100% client-side and only attempts to loosely mock APIs that would otherwise be server-side.
