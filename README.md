@@ -53,7 +53,7 @@ Run app
 ```
 npm start
 ```
-The app will open in your default browser at `http://localhost:8080`. If this doesn't happen, please manually open `http://localhost:8080/` in your favourite browser.
+The app will open in your default browser at `http://localhost:8080/`. If this doesn't happen, please manually open `http://localhost:8080/` in your favourite browser.
 
 `vue-csv` comes with distribution files included to provide further ease in running the app for the first time, no build is required.
 
